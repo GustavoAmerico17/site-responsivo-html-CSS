@@ -71,16 +71,77 @@ button:active{
 header{
     margin-left: 35px;
     
+    margin-top: 20px;
+    
    
 }
 a{
+    
     margin-left: 25px;
     font-size: 25px;
     font-weight: 400;
     color: #5D5D7D;
     cursor: pointer;
+    
 
 }
 a:active{
     opacity: 0.6;
+}
+
+@media screen and (max-width:930px ){
+    
+
+    
+    
+    .container-left{
+        height: 46%;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        position: static;
+    }
+    .container-right{
+        width: 100%;
+        height: auto;
+        display: block;
+        position: static;
+        
+        padding: 15px;
+
+    }
+    img{
+        position: static;
+        width: 90%;
+        
+        
+        
+    }
+    h1{
+        margin: 58px 58px 0 50px;
+        text-align: center;
+        width:auto;
+        line-height:52px ;
+        font-size: 36px
+        
+        
+        
+    }
+    header{
+        display: none;
+    }
+    p{
+        line-height: 24px;
+        font-size: 14px;
+        text-align: center;
+        width: auto;
+        margin: 15px 40px;
+    }
+    button{
+        margin: 20px 58px 0 58px;
+        display: block;
+    }
+
+
+
 }
